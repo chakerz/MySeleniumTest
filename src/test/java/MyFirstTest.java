@@ -65,10 +65,10 @@ public class MyFirstTest {
         if(title.equals("Secure Area")){
             driver.findElement(By.className("radius")).click();
             assertThat(title, is("Secure Area"));
-            return "Valid Userr";
+            return "Valid Userrx";
         }
 
-        return "Invalid Userr";
+        return "Invalid Userrx";
     }
 
 
